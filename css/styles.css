@@ -1,0 +1,49 @@
+:root {
+    --main-font: 'Montserrat', sans-serif;
+    --main-color: rgb(58, 170, 58);
+}
+
+body {
+    background: url(../assets/img/background.jpg);
+    font-family: var(--main-font);
+}
+
+.header {
+    width: 85%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    margin: 0 auto;
+    border-bottom: 2px solid var(--main-color);
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 25px;
+    transition: color linear .5s;
+}
+
+.nav-link:hover {
+    color: var(--main-color);
+}
+
+#main {
+    padding-top: 100px; 
+}
+
+.main-heading, .secondary-heading {
+    color: #fff;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 48px;
+}
+
+.secondary-heading {
+    font-size: 36px;
+}
