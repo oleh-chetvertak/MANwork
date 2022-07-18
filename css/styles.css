@@ -8,6 +8,8 @@ body {
     font-family: var(--main-font);
 }
 
+    /* HEADER */
+
 .header {
     width: 85%;
     height: 70px;
@@ -16,6 +18,11 @@ body {
     padding: 0 30px;
     margin: 0 auto;
     border-bottom: 2px solid var(--main-color);
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .nav-link {
@@ -31,8 +38,15 @@ body {
     color: var(--main-color);
 }
 
-#main {
-    padding-top: 100px; 
+    /* MAIN */
+
+#container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.heading-wrapper {
+    margin-top: 100px;
 }
 
 .main-heading, .secondary-heading {
@@ -47,3 +61,37 @@ body {
 .secondary-heading {
     font-size: 36px;
 }
+
+.class-wrapper {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.link-wrapper {
+    width: 288px;
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.class-link {
+    font-size: 50px;
+}
+
+.class-link:hover + .decor-seven, .class-link:hover + .decor-eight {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.decor-seven, .decor-eight {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+    transition: ease-out .2s;
+}
+
+
