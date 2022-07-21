@@ -16,9 +16,17 @@ body {
     height: 70px;
     display: flex;
     align-items: center;
-    padding: 0 30px;
-    margin: 0 auto;
     border-bottom: 2px solid var(--main-color);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    transition: all .4s ease-out;
+    z-index: 1;
+}
+
+.nav {
+    padding-left: 30px;
 }
 
 a {
@@ -95,7 +103,7 @@ a {
     transition: ease-out .2s;
 }
 
-    /* SEVEN ARTICLE */
+    /* MIND TEXT */
 
 .mind-wrapper {
     display: flex;
@@ -114,6 +122,7 @@ a {
     font-size: 20px;
     padding-left: 15px;
     max-width: 660px;
+    font-weight: 500;
 }
 
 .arrow-down-wrapper {
@@ -123,5 +132,7 @@ a {
 
 .icon-arrow-down {
     font-size: 36px;
+    margin-bottom: 210px;
 }
+
 

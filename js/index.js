@@ -26,3 +26,18 @@
 
 //==========================================================================
 
+window.addEventListener('scroll', function(e) {
+    let header = this.document.getElementById("header")
+    let nav = this.document.getElementById("nav")
+    if (this.scrollY > 70) {
+        header.style.width = "100%"
+        header.style.backgroundColor = "rgb(50, 53, 50)"
+        header.style.height = "50px"
+        nav.style.paddingLeft = "30px"
+    } else {
+        header.style.width = "85%"
+        header.style.backgroundColor = "transparent"
+        header.style.height = "70px"
+    }
+});
+
