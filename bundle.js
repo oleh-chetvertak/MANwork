@@ -1,0 +1,1 @@
+(()=>{"use strict";window.addEventListener("scroll",(function(t){let e=this.document.getElementById("header"),l=this.document.getElementById("nav");this.scrollY>70?(e.style.width="100%",e.style.backgroundColor="rgb(50, 53, 50)",e.style.height="50px",l.style.paddingLeft="30px"):(e.style.width="85%",e.style.backgroundColor="transparent",e.style.height="70px")}))})();
