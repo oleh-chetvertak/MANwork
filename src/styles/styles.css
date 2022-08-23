@@ -4,7 +4,7 @@
 }
 
 body {
-    background: repeat-x url(../assets/img/background.jpg);
+    background: repeat-x url(../img/background.jpg), url(../img/bg2.jpg);
     background-size: cover 627px;
     font-family: var(--main-font);
 }
@@ -109,7 +109,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid var(--main-color);
 }
 
 .third-heading {
@@ -132,7 +133,28 @@ a {
 
 .icon-arrow-down {
     font-size: 36px;
-    margin-bottom: 210px;
+    margin: 122px 100px;
 }
 
+    /* CLASSES */
 
+.class {
+    font-size: 36px;
+    color: #fff;
+}
+
+.class-inner {
+    font-size: 48px;
+}
+
+.subj-wrapper {
+    display: flex;
+    margin-top: 20px;
+}
+
+.subj-box {
+    width: 240px;
+    height: 150px;
+    border: 1px solid var(--main-color);
+    margin-right: 20px;
+}

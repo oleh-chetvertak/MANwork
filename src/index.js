@@ -26,6 +26,9 @@
 
 //==========================================================================
 
+import './styles/styles.css'
+import './styles/icons.css'
+
 window.addEventListener('scroll', function(e) {
     let header = this.document.getElementById("header")
     let nav = this.document.getElementById("nav")
